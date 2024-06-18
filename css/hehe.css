@@ -70,7 +70,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background: #eee6d3;
+  background: #000000;
   background-image: linear-gradient(to right top, #664229, #7a563a, #8e6b4b, #a2805e, #b69671, #b69671, #b69671, #b69671, #a2805e, #8e6b4b, #7a563a, #664229);
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, 0.3);
   z-index: var(--z-fixed);

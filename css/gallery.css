@@ -13,52 +13,10 @@
 
 
 
-.container-gallery{
-    /* width: 100%; */
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    background-color: #5f493cfa;
-    width: 86%;
-    margin: auto;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    padding: 1vw;
-    border-radius: 0.5vw;
-    width: 86%;
-  box-shadow: rgba(0 0 0) 2px 2px 23px 2px;
-  border-radius: 0.3vw;
-    
-    
-
-}
-
-.gallery{
-    display: grid;
-    grid-gap:5px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: 250px;
-	grid-auto-flow: dense;
-    width: 100%;
-    margin: auto;
-   
-    
-	
-}
-
-.gallery img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-	border: 0.15vw solid black;
-    border-radius: 0.8vw;
-    
-    
-}
 
 #main{
     border-radius: 0.5vw;
-    background-color: rgb(104, 146, 153,0.8);
+    background-color: #93a8acd5;
     border-radius: 0.8vw;
     border: 2px solid black;
     

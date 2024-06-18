@@ -246,12 +246,11 @@
 
     </div>
 
-    <footer
-        style="background-image: linear-gradient(to right top, #664229, #7a563a, #8e6b4b, #a2805e, #b69671, #b69671, #b69671, #b69671, #a2805e, #8e6b4b, #7a563a, #664229);">
+    <footer style="background-color:  #65635b;">
         <div class="container p-4 my-custom-style">
             <hr class="footer-hr" />
             <div class="row">
-                <div class="col-lg-6 col-md-12 mb-4 hehe">
+                <div class="col-lg-6 col-md-12 mb-4">
                     <img src="../photos/final_logo.png" alt="mudberry logo" class="footer-logo" />
                     <br /><br />
                     <p>
@@ -259,53 +258,45 @@
                         Here.
                     </p>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-4 hehe">
-                    <div class="footer-links" style="text-align: center;">
-                        <h5 class="mb-3 text-dark useful-links">Useful Links</h5>
-                    </div>
+                <div class="col-lg-3 col-md-6 mb-4 ">
+                    
 
                     <ul class="list-unstyled mb-0" style="text-align: center;">
                         <li class="mb-1">
-                            <a href="../templates/about_us.html" style="color: #4f4f4f">About Us</a>
+                            <a href="./about_us.html" style="color: #000000">About Us</a>
                         </li>
                         <li class="mb-1">
-                            <a href="../templates/activity.html" style="color: #4f4f4f">Activities</a>
+                            <a href="./activity.html" style="color: #000000">Activities</a>
                         </li>
                         <li class="mb-1">
-                            <a href="../templates/gallery.html" style="color: #4f4f4f">Gallery</a>
+                            <a href="./gallery.html" style="color: #000000">Gallery</a>
                         </li>
                         <li>
-                            <a href="#" style="color: #4f4f4f" onclick="showPopup()">Contact Us</a>
+                            <a href="#" style="color: #000000" class="click-pop" onclick="showPopup()">Contact Us</a>
                         </li>
-                    </ul>
+                    </ul> 
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="opening" style="text-align: center;">
-                        <h5 class="mb-1 text-dark opening-hours">Opening hours</h5>
-                    </div>
+                    
 
-                    <table class="table" style="border-color: #666">
+                    <table class="table" >
                         <tbody>
                             <tr>
-                                <td colspan="3">(Wednesday OFF)</td>
+                                <td colspan="3"    style="border-top: 1px solid #65635b " >(Wednesday OFF)</td>
                             </tr>
                             <tr>
-                                <td colspan="3" class="weekdays" style="padding-bottom: 0em; padding-top: 0em;">
+                                <td colspan="3" class="weekdays" style="padding-bottom: 0em; padding-top: 0em; border-top: 1px solid #65635b " >
                                     Weekdays: </td>
                             </tr>
+                           
+                                <tr ><td style="padding-bottom: 0em; padding-top: 0em;border-top: 1px solid #65635b " >3pm - 4pm</td></tr>
+                                <tr ><td style="padding-bottom: 0em; padding-top: 0em ;border-top: 1px solid #65635b " >6pm - 7pm</td></tr>
+                                <tr ><td style="padding-bottom: 0em; padding-top: 0em;border-top: 1px solid #65635b " >7pm - 8pm</td></tr>
+                           
                             <tr>
-                                <td style="padding-top: 0em;">3pm - 4pm</td>
-                                <td style="padding-top: 0em;">6pm - 7pm</td>
-                                <td style="padding-top: 0em;">7pm - 8pm</td>
-                            </tr>
-                            <tr>
-                                <td colspan="3" style="padding-bottom: 0em; padding-top: 0em;">Sundays</td>
+                                <td colspan="3" style="border-top: 1px solid #65635b "  >Sundays: 11am - 6pm</td>
                             </tr>
 
-                            <tr>
-                                <td colspan="3" style="padding-top: 0em;">11am - 6pm</td>
-
-                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -313,7 +304,7 @@
         </div>
 
         <div class="social-media-icons text-center">
-            <p class="reach-us">Reach Us&#128516:</p>
+            <p class="reach-us">Reach Us</p>
             <a href="https://api.whatsapp.com/send/?phone=919099747799&text&type=phone_number&app_absent=0" target="_blank" class="icon-link wa-icon">
                 <i class="fab fa-whatsapp social-icon"></i>
             </a>
@@ -325,7 +316,7 @@
                 target="_blank" class="custom-icon gmap-icon">
                 <img src="../photos/google-maps.png" alt="map-logo" class="map-logo">
             </a>
-            <a href="#top" class="back-to-top" id="backToTop">Back to Top</a>
+            <a href="#top" class="back-to-top" id="backToTop" style="background-color: #65635b;">Back to Top</a>
         </div>
 
 
@@ -333,7 +324,7 @@
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
             © 2023 Copyright:
 
-            <a class="text-dark" href="../index.html">Mudberry.com</a>
+            <a class="text-dark" href="index.html">Mudberry.com</a>
 
         </div>
         <!-- Copyright -->
@@ -343,24 +334,25 @@
 
     </div>
 
-<div id="popup">
-    <span class="material-symbols-outlined pop-close">close</span>
-    <h1>Contact Us!</h1>
-    <div class="pop-item">
-        <a href="https://api.whatsapp.com/send/?phone=919099747799&text&type=phone_number&app_absent=0" target="_blank"><span class="material-symbols-outlined">call</span></a>
-        <span class="pop-item-text">09099747799</span>
+    <div id="popup">
+        <span class="material-symbols-outlined pop-close">close</span>
+        <h1>Contact Us!</h1>
+        <div class="pop-item">
+            <a href="https://api.whatsapp.com/send/?phone=919099747799&text&type=phone_number&app_absent=0" target="_blank"><span class="material-symbols-outlined">call</span></a>
+            <span class="pop-item-text">09099747799</span>
+        </div>
+        <div class="pop-item">
+            <a href="https://www.instagram.com/mudberry_studio?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><span class="material-symbols-outlined" target="_blank"><i class="fa-brands fa-instagram"></i></span></a>
+            <span class="pop-item-text">@mudberry_studio</span>
+        </div>
+        <div class="pop-item map">
+            <span class="material-symbols-outlined">pin_drop</span>
+            <span class="pop-item-text">02, Road, opp. to Homeland City, nearby Hero Showroom, Sai Kutir Socirty, Piplod, Surat, Gujarat - 395007</span>
+            
+        </div>
+        <span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.9866168871235!2d72.77332777503507!3d21.152930880527673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d2d34edd1c9%3A0x17a3999ce3431ad9!2sMudberry%20Pottery%20Studio!5e0!3m2!1sen!2sin!4v1704607059505!5m2!1sen!2sin" width="450" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></span>
     </div>
-    <div class="pop-item">
-        <a href="https://www.instagram.com/mudberry_studio?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="><span class="material-symbols-outlined" target="_blank"><i class="fa-brands fa-instagram"></i></span></a>
-        <span class="pop-item-text">@mudberry_studio</span>
-    </div>
-    <div class="pop-item map">
-        <span class="material-symbols-outlined">pin_drop</span>
-        <span class="pop-item-text">02, Road, opp. to Homeland City, nearby Hero Showroom, Sai Kutir Socirty, Piplod, Surat, Gujarat - 395007</span>
-        
-    </div>
-    <span><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.9866168871235!2d72.77332777503507!3d21.152930880527673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d2d34edd1c9%3A0x17a3999ce3431ad9!2sMudberry%20Pottery%20Studio!5e0!3m2!1sen!2sin!4v1704607059505!5m2!1sen!2sin" width="450" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></span>
-</div>
+    
 
 <div class="mybutton">
     <button class="btn btn1">

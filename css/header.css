@@ -70,8 +70,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background: #eee6d3;
-  background-image: linear-gradient(to right top, #664229, #7a563a, #8e6b4b, #a2805e, #b69671, #b69671, #b69671, #b69671, #a2805e, #8e6b4b, #7a563a, #664229);
+  background-color: #65635b;
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, 0.3);
   z-index: var(--z-fixed);
 }
@@ -160,7 +159,7 @@ a {
     width: 0;
   }
   .nav__list {
-    background-color: hsl(27.27deg 38.36% 45.87%);
+    background-color: #65635b ;
     padding-top: 1rem;
   }
   .nav__menu ul li{
@@ -263,7 +262,7 @@ a {
   color: black;
   text-decoration: none;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  
   transform: scale(1.15);
 }
 

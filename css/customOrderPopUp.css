@@ -14,7 +14,7 @@
 
 .btn {
   margin-top: 2vw;
-  --color: rgb(105, 117, 81);
+  --color: #4c5660;
   position: relative;
   display: flex;
   justify-content: center;
@@ -87,7 +87,7 @@
   width: 40vw;
   padding: 3vw;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.30);
-  background: rgba(160, 173, 134, 0.927);
+  background: #4c5660;
   /* visibility: hidden; */
   /* opacity: 0; */
   transition: 0.5s;
